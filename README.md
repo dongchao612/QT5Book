@@ -565,3 +565,25 @@ void MainWindow::on_delete_TableWidget_clicked()
 }
 ```
 
+## 第六章 对话框
+
+|                         |                                |                            |
+| ----------------------- | ------------------------------ | -------------------------- |
+| 文件对话框 QFileDialog  | QString getOpenFileName()      | 打开一个文件               |
+|                         | QStringList getOpenFileNames() | 打开多个文件               |
+|                         | QString getSaveFileName()      | 保存一个文件               |
+|                         | QString getExistingDirectory() | 选择已有文件               |
+| 颜色对话框 QColorDialog | QColor getColor()              | 选择颜色                   |
+| 字体对话框 QFontDialog  | QFont getFont()                | 选择字体                   |
+| 输入对话框 QInputDialog | QString getText()              | 输入单行文本               |
+|                         | int getInt()                   | 输入整数                   |
+|                         | double getDouble()             | 输入浮点数                 |
+|                         | QString getItem()              | 从一个下拉列表中选择输入   |
+|                         | QString getMultiLineText()     | 输入多行字符串             |
+| 消息框 QMessageBox()    | QStandardButton information()  | 信息提示对话框             |
+|                         | QStandardButton question()     | 询问并获取是否确认的对话框 |
+|                         | QStandardButton warning()      | 警告信息提示对话框         |
+|                         | QStandardButton critical()     | 错误信息提示对话框         |
+|                         | void about()                   | 设置自定义关于对话框       |
+|                         | void aboutQt()                 | 关于Qt的对话框             |
+
